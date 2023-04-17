@@ -1,0 +1,307 @@
+{
+  "categories": [
+    "SQL Editor",
+    "Schema Editor",
+    "Pro Features",
+    "Data Editor",
+    "Source Control",
+    "Diagram Editor",
+    "SQL Diff",
+    "General",
+    "Start Page",
+    "Form Editor"
+  ],
+  "tips": [
+    {
+      "title": "Comment and uncomment code",
+      "html": "Use %1 / shortcut to comment and uncomment lines of code",
+      "params": [
+        {
+          "type": "shortcut",
+          "value": "Ctrl"
+        }
+      ],
+      "categories": [
+        "SQL Editor"
+      ]
+    },
+    {
+      "title": "Quick search in tree views",
+      "html": "Quick search is available in many tree views represenging database schema, for example, in the Schema Editor and SQL Editor.<img %1/>Start typing in the search field at the bottom of the tree view, and you'll quickly find the necessary items.<br />Use the menu to specify extended matching options, e.g. regular expressions or wildcards. ",
+      "params": [
+        {
+          "type": "image",
+          "value": "vs_tree_quick_search@2x.png"
+        }
+      ],
+      "categories": [
+        "Schema Editor",
+        "SQL Editor"
+      ]
+    },
+    {
+      "title": "Navigate to object",
+      "html": "To navigate to the field, table or any other schema object, hold %1 and click the object name in your code.<img %2/>The object will be selected in the schema tree.",
+      "params": [
+        {
+          "type": "shortcut",
+          "value": "Ctrl"
+        },
+        {
+          "type": "image",
+          "value": "vs_navigate_to_object@2x.png"
+        }
+      ],
+      "categories": [
+        "SQL Editor"
+      ]
+    },
+    {
+      "title": "Find and replace",
+      "html": "Press %1 F to display the search bar. Check Replace to add another field where you can type the replace string.",
+      "params": [
+        {
+          "type": "shortcut",
+          "value": "Ctrl"
+        }
+      ],
+      "categories": [
+        "SQL Editor"
+      ]
+    },
+    {
+      "title": "Duplicate a code block or a line",
+      "html": "Press %1 D in the editor to duplicate the selected code block, or the current line when no block is selected.",
+      "params": [
+        {
+          "type": "shortcut",
+          "value": "Ctrl"
+        }
+      ],
+      "categories": [
+        "SQL Editor"
+      ]
+    },
+    {
+      "title": "Format query",
+      "html": "To reformat entire text or selected block click the Format Query button located above the editing area.",
+      "params": [],
+      "categories": [
+        "SQL Editor"
+      ]
+    },
+    {
+      "title": "Autocompletion",
+      "html": "The autocompletion list is shown automatically during editing. If it was closed, you can show it again using %1 . shortcut.<br />Press Enter to use selected suggestion.<br />Press Tab to add common prefix In case selected suggestion has common prefix with one or more other items.",
+      "params": [],
+      "categories": [
+        "SQL Editor"
+      ]
+    },
+    {
+      "title": "Use colors for objects",
+      "html": "You can use colors to distinguish between your connections and their subelements.<img %1/>To set a color to a connection or its subobject, right-click the element and select desired color in the context menu<ul><li>Click X to reset the color.</li><li>Click ... to set a custom color</li></ul>The color is applied in the Schema Editor, main window tabs, Data Editor columns.",
+      "params": [],
+      "categories": [
+        "Schema Editor",
+        "Pro Features"
+      ]
+    },
+    {
+      "title": "Open a table in the Data Editor",
+      "html": "When you double-click a table in the Schema Editor, the table opens in the Data Editor.<br />In the Data Editor, you can create and delete new rows, modify existing ones, filter data by a column, view data in the separate dialog.",
+      "params": [],
+      "categories": [
+        "Data Editor"
+      ]
+    },
+    {
+      "title": "Search in your query history",
+      "html": "You can use text search in the SQL Editor query history if you are looking for a particular request.<img %1/>Just switch to your recent queries, select the viewing scope and input search term.",
+      "params": [
+        {
+          "type": "image",
+          "value": "vs_query_history@2x.png"
+        }
+      ],
+      "categories": [
+        "SQL Editor"
+      ]
+    },
+    {
+      "title": "Query parameters",
+      "html": "Use the Parameters panel to pass correct values for the parameters in your statement.<img %1/>Uncheck the <b>Use Parameters</b> checkbox to temporary disable applying parameters.<br />The latest parameters set is saved for each distinct query in the recent queries history.",
+      "params": [
+        {
+          "type": "image",
+          "value": "vs_query_parameters@2x.png"
+        }
+      ],
+      "categories": [
+        "SQL Editor",
+        "Pro Features"
+      ]
+    },
+    {
+      "title": "Save DDL scripts to source control system",
+      "html": "Source Control tool allows you to save DDL definitions of the schema objects in a number of SQL scripts. That way you can store the database structure in the Version Control System (VCS)",
+      "params": [],
+      "categories": [
+        "Source Control"
+      ]
+    },
+    {
+      "title": "Filter in the Data Editor",
+      "html": "To use a filter in the Data Editor, press %1 F.",
+      "params": [
+        {
+          "type": "shortcut",
+          "value": "Ctrl"
+        }
+      ],
+      "categories": [
+        "Data Editor"
+      ]
+    },
+    {
+      "title": "How to create a diagram",
+      "html": "You can create a diagram for a database.In the Schema Editor, right-click a database object and select Create->Diagram...Tick <b>Add Existing Tables</b> checkbox if you want to visualize or edit an existing structure of the database.",
+      "params": [],
+      "categories": [
+        "Diagram Editor"
+      ]
+    },
+    {
+      "title": "Autocompletion",
+      "html": "With RegEx autocompletion, enabled by default, you can type any characters that exist anywhere in an identifier.It is controlled by the preference: Application->General->SQL Editing->Autocompletion style",
+      "params": [],
+      "categories": [
+        "SQL Editor"
+      ]
+    },
+    {
+      "title": "Compare database structure",
+      "html": "You can compare two database structures and see the differences in tables, columns, keys, indexes, and other structural database elements (Tools->SQL Diff)",
+      "params": [],
+      "categories": [
+        "SQL Diff",
+        "Pro Features"
+      ]
+    },
+    {
+      "title": "Autocompletion",
+      "html": "Autocompletion accelerates the process of completing code statements by presenting a list of suggestions from the current caret position as you type",
+      "params": [],
+      "categories": [
+        "SQL Editor"
+      ]
+    },
+    {
+      "title": "Recursive tree manipulation",
+      "html": "All trees in Valentina Studio allow you to do %1+Click to close/open recursively all sub-items.",
+      "params": [
+        {
+          "type": "shortcut",
+          "value": "Alt"
+        }
+      ],
+      "categories": [
+        "General",
+        "Pro Features"
+      ]
+    },
+    {
+      "title": "Bonjour",
+      "html": "The first section of the Start Page <b>Servers</b> has <b>Bonjour</b> list of auto-recognized Valentina Servers in the local network. You can click one of them to connect or use its contextual menu to add it to bookmarks.",
+      "params": [],
+      "categories": [
+        "Start Page"
+      ]
+    },
+    {
+      "title": "Export bookmarks",
+      "html": "You can export/import bookmarks into file using:<ul><li>the contextual menu of the <b>Bookmarks</b> tab of the <b>Servers</b> section on the Start Page</li><li>the main menu File->Bookmarks</li><li>the <b>Bookmarks</b> button on the main toolbar</li></ul><i>Note, Valentina Studio can automatically sync your bookmarks between your computers using Apple iCloud, Dropbox, Google Drive, etc.</i>",
+      "params": [],
+      "categories": [
+        "General"
+      ]
+    },
+    {
+      "title": "Open a database with drag&drop",
+      "html": "You can drag&drop a local Valentina or SQLite database file to the middle section of the Start Page to open it.",
+      "params": [],
+      "categories": [
+        "Start Page"
+      ]
+    },
+    {
+      "title": "Examples",
+      "html": "On the <b>Start Page</b>, you can see a few example databases and projects which are cloud-based, they are not copied to your disk by installer, but are loaded from an external storage. These databases and projects have an icon with a cloud.<img %1/><i>Note, you can hide examples in the context menu or in the preferences (Application->General)</i>",
+      "params": [
+        {
+          "type": "image",
+          "value": "vs_examples@2x.png"
+        }
+      ],
+      "categories": [
+        "Start Page"
+      ]
+    },
+    {
+      "title": "Field sorting",
+      "html": "You can see fields in order of creation: <ul>      <li>You can click button <b>Sort List</b> in the toolbar to change this option for the current list of Schema Editor.</li><br />      <img %1/>      <li>Also, you can set this option globally in the preferences of Valentina Studio</li><br />      <img %2/>      </ul>",
+      "params": [
+        {
+          "type": "image",
+          "value": "vs_sort_fields1@2x.png"
+        },
+        {
+          "type": "image",
+          "value": "vs_sort_fields2@2x.png"
+        }
+      ],
+      "categories": [
+        "Schema Editor"
+      ]
+    },
+    {
+      "title": "Form creation",
+      "html": "To create a form: <ol>      <li>Create or open an existing project (e.g. menu File->New Project->Local...)</li>      <li>On the project tab, click Create->Form...</li>      <li>Using the Form Wizard, setup a basic form</li>      </ol>",
+      "params": [
+        {
+          "type": "image",
+          "value": "vs_create_form@2x.png"
+        }
+      ],
+      "categories": [
+        "Form Editor"
+      ]
+    },
+    {
+      "title": "View sizes of multiple tables at once",
+      "html": "To view sizes of multiple tables at once:<ol>    <li>Switch to the <b>Tree Mode</b> using a button in the top-left corner of the <b>Schema Editor</b></li>    <li>Select the <b>Tables</b> list in the tree</li>    <li>In the contextual menu of the properties table header click <b>Choose Shown Properties...</b></li>    <li>Check the <b>Size</b> checkbox</li></ol><img %1/><i>Note, now you can also sort tables by their size.</i>",
+      "params": [
+        {
+          "type": "image",
+          "value": "vs_view_sizes@2x.png"
+        }
+      ],
+      "categories": [
+        "Schema Editor"
+      ]
+    },
+    {
+      "title": "Find values starting with string",
+      "html": "You can find values starting with a specified string using the following filter:<br /><code>LIKE 'str%'</code><img %1/><i>More information about filters <a href='http://valentina-db.com/docs/dokuwiki/v13/doku.php?id=valentina%3Aproducts%3Avstudio%3Ahelp%3Adata_editor%3Asingle_table_mode%3Afiltering'>here</a></i>",
+      "params": [
+        {
+          "type": "image",
+          "value": "vs_filter_start@2x.png"
+        }
+      ],
+      "categories": [
+        "Data Editor"
+      ]
+    }
+  ]
+}
