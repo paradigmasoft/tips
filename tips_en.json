@@ -14,7 +14,7 @@
   "tips": [
     {
       "title": "Comment and uncomment code",
-      "html": "Use <b>%1/</b> shortcut to comment and uncomment lines of code",
+      "html": "Use <b>%1/</b> shortcut to comment and uncomment lines of code.",
       "params": [
         {
           "type": "shortcut",
